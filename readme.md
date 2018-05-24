@@ -6,17 +6,9 @@ A simple library to push data to be handled by the Notification Service
 
 - add to your (project folder)/composer.json
     ```
-    "repositories": [
+    "require": {
         ...
-        {
-            "url": "git@dev.getphoto.io:getphoto/NotificationLibrary.git",
-            "type": "vcs"
-        }
-    ]
-    ...
-    "require-dev": {
-        ...
-        "GetPhoto/notification-library": "dev-master"
+        "fotografde/notification-library": "*"
     }
     ```
 
