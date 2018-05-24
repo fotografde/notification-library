@@ -1,0 +1,11 @@
+<?php
+return [
+    'events_table' => 'EventQueue',
+    'region' => 'eu-central-1',
+    'endpoint' => 'http://ddb:8000/',
+    'credential_key' => 'abc',
+    'credential_secret' => '123',
+    'notification_service_url' => 'http://notification/',
+    'method_add_trigger' => 'api/triggers',
+    'client_backoff_retries' => '11',
+];

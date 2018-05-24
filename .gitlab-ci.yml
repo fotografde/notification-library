@@ -1,0 +1,5 @@
+run_tests:
+  script:
+    - curl -sS https://getcomposer.org/installer | php
+    - php composer.phar install --no-interaction -o --quiet
+    - ./vendor/phpunit/phpunit/phpunit
