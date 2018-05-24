@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/fotografde/notification-library.svg?branch=master)](https://travis-ci.org/fotografde/notification-library)
+
 # Notification Library
 
 A simple library to push data to be handled by the Notification Service
