@@ -85,7 +85,7 @@ class Notification extends ServiceBase
 
 	public function getDynamoDB()
 	{
-		return DynamoDbClient::factory([
+		return new DynamoDbClient([
 			'endpoint' => $this->config['endpoint'],
 			'region'   => $this->config['region'],
 			'credentials' => [
